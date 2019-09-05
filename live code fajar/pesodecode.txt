@@ -1,0 +1,17 @@
+input firstArr and secondfirstArr
+
+insert firstArr length
+insert secondfirstArr length
+
+while firstArr length
+if firstArr(index) > a
+a = firstArr(index)
+
+while secondfirstArr length
+if secondfirstArr(index) > b
+b = secondfirstArr(index)
+
+if a > b 
+retrun a
+else
+retrun b
