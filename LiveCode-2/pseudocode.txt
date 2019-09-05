@@ -1,0 +1,18 @@
+start   
+
+    tambahkan firstArr[0] di var minus1
+    tambahkan secondArr[0] di var minus2
+    tambahkan banding isi dengan  NOL
+    lakukan pengecekan pada parameter1 dengan menambahkan 1
+        jika minus1 lebih besar dari parameter1[x]
+        manus1 sama dengan parameter1[x]
+
+    lakukan pengecekan pada parameter2 dengan menambahkan 1
+        jika minus2 lebih dari parameter2[y]
+        maka minus2 sama dengan parametter2[y]
+
+        jika minus1 kurang dari minus2
+        kembalikan nilai minus2
+
+        else
+        kembalikan nilai minus2
