@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function highestGlobalMinimum(firstArr, secondArr){
+            //console.log(firstArr);s
+            //console.log(secondArr);
+
+           /* var a = firstArr;
+            var arr = [];
+            
+            for( var i = 0; i < firstArr.length; i++){
+
+                    for( var j = 1; j < firstArr.length; j++){
+
+                        if(firstArr[i] < firstArr[j]){
+
+                             //console.log(firstArr[i]);
+                             arr.push(firstArr[i]);
+                             console.log(arr);
+
+//if()
+                        }
+
+
+                    }
+
+                    //console.log('no');
+            } */
+
+
+            var tmp1=0;
+            var tmp2=0;
+            var minNum1=[];
+            var minNum2=[];
+            var result=0;
+
+                for(var i=0; i<firstArr.length; i++){
+
+                    if(firstArr[i]<firstArr[i+1]){
+
+                        tmp1=tmp1+firstArr[i];
+                    }
+                    minNum1.push(tmp1); //6
+                }
+
+                for(var j=0; j<secondArr.length; j++){
+
+                    if(secondArr[j]<secondArr[j+1]){
+
+                        tmp2=tmp2+secondArr[j];
+                    }
+                    minNum2.push(tmp2);
+                }
+
+                if(minNum2[0]>minNum1[0]){
+
+                    //result=minNum2[0];
+                    console.log(minNum2[0])
+
+                }
+                if(minNum1[0]>minNum2[0]){
+
+                    //result=minNum1[0];
+                    console.log(minNum1[0])
+
+                }
+                return result;
+
+
+
+        }
+
+highestGlobalMinimum([1, 1, 1] , [8, 15, 17, 9]); // 
+highestGlobalMinimum([4, 8, 9, 12] , [33, 88, 99 ,11]); // 11
+highestGlobalMinimum([1, 2, 5, 2, 2] , [67, 45, 55]); // 45
+highestGlobalMinimum([6, 2, 4, 10, 8, 2] , [6, 5, 13, 23]); // 5
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+PSEUDOCODE highestGlobalMinimum
+
+1. deklarasikan function dengan 2 parameter array number dan
+   deklarasikan variabel numb1, numb2 dan 2 variabel array kosong dalam function 
+2. input function
+3. LOOPING FOR parameter pertama dari function 
+4. lakukan kondisi IF ( jika firstArr[i] < firstArr[i+1]
+5. masukan kedalam variabel dan kemudian PUSH kedalam array kosong
+6. LOOPING parameter kedua dari function 
+7. lakukan kondisi IF ( jika firstArr[i] < firstArr[i+1]
+8. masukan kedalam variabel dan kemudian PUSH kedalam array kosong
+9. lakukan kondisi IF ( numb1 < numb2 ) print numb1
+10. ELSE print numb2
