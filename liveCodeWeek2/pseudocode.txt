@@ -1,0 +1,6 @@
+- create var banding1 in firstArr
+- loop k<frirstArr +1 if < banding1
+- create var banding2 in secondArr
+- loop k<secondArr +1 if < banding2
+- if banding1 more than banding2 return banding1
+- if else return banding2

@@ -1,0 +1,7 @@
+pseudocode 1
+- siapkan variable 'tampung' untuk menampung data baru dengan tipe data string
+- looping var i+1
+- tampung array satu persatu ke dalam variable tampung i
+- looping var j index+count
+- tampung array satu persatu ke dalam variable tampung j
+- kembalikan nilai variable 'tampung'
