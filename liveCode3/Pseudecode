@@ -1,0 +1,10 @@
+START
+INPUT array;
+INPUT index, count;
+FOR var i = 0; i < count; i++;
+IF index === 0
+DO array[i] = '';
+ELSE
+DO array[i++] = '';
+PRITN array
+END
